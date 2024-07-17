@@ -1,0 +1,446 @@
+body {
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    z-index: 2;
+    overflow: auto;   
+    transition: all 0.15s linear;
+}
+
+#header.active {
+     box-shadow: 0 0 10px #000;   
+     background-color: #FDF8F5 !important; 
+}
+
+#header.active .navigation{
+    padding-top:35px !important;
+    transition: padding-top  0.4s ease-in;
+}
+#header.active .nav-scroll{
+    margin-bottom: 35px;
+    transition: margin-bottom 0.4s ease-in;
+}
+
+.sticky-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.img-fluid{
+    max-width:  100%;
+    height: auto;
+}
+
+.navbar{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.navigation{
+    padding-top: 70px !important;
+    padding-left: 94px !important;
+    z-index: 1;
+}
+.depps-header-logo{
+    width: 203px !important;
+    height: 53px !important;
+}
+.nav-item{
+    padding-right: 17px;
+    gap:60px;
+}
+.navbar-toggler:focus {
+    outline: 4px solid #E09773 !important;
+    box-shadow: none !important;
+}
+.nav-link{
+    font-size: 18px !important;
+    color:#000 !important;
+    font-family: Inter;
+}
+.nav-link:hover{
+    color: #E09773 !important;
+}
+
+.banner{
+    background-image: url(/assets/images/header-background.jpg);
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:  bottom center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.banner::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(/assets/images/background-white-shadow.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.de-pin-for-agriculture{
+    gap:23px;
+}
+h1{
+    color:#000;
+    font-size: 64px !important;
+    margin-bottom: 0px;
+    font-family: Inter;
+}
+
+.agriculture{
+    padding-left: 35px;
+    font-size: 64px;
+    font-weight: 500;
+    font-family: Inter;
+}
+.search-bar{
+    z-index: 2;
+}
+input{
+    background-color: transparent;
+}
+::placeholder{
+    color: rgba(3, 3, 3, 0.40);
+    font-size: 30px;
+    font-weight: 400px;
+    font-family: Inter;
+}
+input{
+    font-size: 30px !important;
+    border-radius: 10px;
+    border: 2px solid #1C1C1C;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    padding-left: 50px;
+    padding-right: 320px;
+    background-image: url(/assets/images/icons/search-bar-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    font-family: Inter;
+}
+input:focus{
+    outline: none;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+   display: none;
+}
+.help{
+    right: -53px;
+}
+.deeps-tooltip{
+    color: white;
+    font-size: 24px;
+    width: 28px;
+    height: 28px;
+    background-color: #000;
+    font-family: Inter;
+}
+.tooltip-inner {
+    font-size: 16px;
+}
+
+.mission{
+    background-color: #161616;
+    padding-top: 204px;
+    padding-bottom: 241px;
+}
+.mission-head{
+    color: #E09773;
+    font-family: Inter;
+    padding-bottom: 12px;
+    font-size: 20px;
+    line-height: normal;
+}
+.mission-ctn{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    line-height: normal;
+}
+.food-industry{
+    padding-bottom: 26px;
+    width: 800px;
+    font-size: 32px;
+    line-height: normal;
+
+}
+
+
+.features{
+    background-color: #FDF8F5;
+    padding-top: 138px;
+    padding-bottom: 88px;
+}
+.why{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+}
+.feature-head{
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    line-height: 24px;
+}
+.feature-ctn{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 29px;
+}
+.deeps-empower{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 7px;
+}
+.Transparency{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+}
+.advantage{
+padding-left: 50px;
+}
+.how{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+.technology{
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    width: 428px;
+    line-height: normal;
+}
+.how-ctn{
+    padding-top: 168px;
+}
+.how-and-supplychain{
+    background-color: #FDF8F5;
+    padding-bottom: 117px;
+}
+
+.satellite{
+    background-color: rgba(22, 22, 22, 1);
+    padding-top: 100px;
+    padding-bottom: 124px;
+}
+.satellite-artboard{
+   padding-left: 92px;
+}
+.join-the-movement{
+    color: #E09773;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 67px;
+    padding-bottom: 42px;
+}
+.join-the-movement-ctn{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    padding-bottom: 149px;
+    padding-right: 50px;
+    line-height: normal;
+}
+.join-the-movement-btn{
+    width: 223px;
+    color: #161616;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    border: none;
+    line-height: normal;
+}
+.join-the-movement-btn:hover{
+    color:#E09773;
+    background-color: #FFF;
+}
+.join-btn{
+    background: #E09773;
+}
+
+.join-and-connect-button{
+    gap:20px;
+}
+
+
+.where-and-worldmap{
+    background-color: #FDF8F5;
+    padding-top: 171px;
+    padding-bottom: 135px;
+}
+.where{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    padding-bottom: 19px;
+}
+.where-ctn{
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    width: 373px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+.worldmap{
+    padding-top: 21px;
+}
+.map{
+    width: 100%;
+}
+
+
+.farmsent{
+    background-color: #FDF8F5;
+}
+.farmsent-container{
+    background-color: #161616;
+    padding-top: 83px;
+    padding-bottom: 97px;
+    padding-left: 76px;
+}
+.about-farmsent{
+    color: #E09773;
+    font-family: Inter;
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+.farmsent-ctn{
+    color: #FDF8F5;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 29px;
+    padding-right: 155px;
+}
+.farmsent-io{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    gap: 9px;
+    padding-top: 19px;
+}
+.farmsent-io:hover{
+    color: #E09773;
+}
+.depps-client{
+    padding-top: 116px ;
+    padding-bottom: 141px;
+    background-color: #FDF8F5;
+}
+.patners{
+    padding-bottom: 41px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+
+}
+.depps-clients-logo{
+    width: 203px;
+    height: 53px;
+}
+.client-logo{
+
+    row-gap: 93px;
+}
+.depps-partners-logo{
+    opacity: 0.45;
+}
+.client:hover .depps-partners-logo{
+    opacity: 1;
+}
+
+.footer{
+    background-color: rgba(22, 22, 22, 1);
+    padding-top: 49px;
+    padding-bottom: 56px;
+}
+.depps-footer-logo{
+    padding-top: 61px;
+}
+.depps-footer-icon{
+    width: 203px;
+    height: 53px;
+}
+.contact-us{
+    color: #FDF8F5;
+    font-family: Inter;
+    font-size: 20px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+.address-and-details{
+    color: #FDF8F5;
+    font-family: Inter;
+    font-size: 15px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+.contact-us-and-email{
+    padding-top: 102px;
+    padding-left: 8px;
+    padding-bottom: 38px;
+}
+.address-and-copyright{
+    padding-left: 8px;
+    gap: 19px;
+}
+.copyright{
+    border-right: 1px solid #FDF8F5;
+    padding-right: 6px;
+}
+.reserve{
+    padding-left: 6px;
+}
+
+.topup-btn{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: #FDF8F5;
+    bottom:80px;
+    right: 105px;
+    z-index: 1;
+}
+.topup-btn:hover{
+    background-color:#E09773 ;
+}
+.topup-btn:hover .bi-arrow-up{
+    color:#FDF8F5;
+}
+.bi-arrow-up{
+    font-size: 27px;
+    color:#161616;
+}
+
+.to_top{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.show{
+    opacity: 1;
+}

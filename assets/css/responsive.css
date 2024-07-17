@@ -1,0 +1,953 @@
+@media (max-width: 1199px){
+    .navigation{
+        padding-top: 55px !important;
+        padding-left: 55px !important;
+    }
+    #header.active .navigation{
+        padding-top:30px !important;
+    }
+    #header.active .nav-scroll{
+        margin-bottom: 30px; 
+    }
+    .nav-item{
+        padding-right: 15px;
+        gap: 50px;
+    }
+    .nav-link{
+        font-size: 17px !important;
+    }
+    .de-pin-for-agriculture{
+        gap: 20px;
+    }
+    h1{
+        color:#000;
+        font-size: 60px !important;
+    }
+    .agriculture{
+        padding-left: 32px;
+        font-size: 60px;
+    }
+    input{
+        font-size: 26px !important;
+        padding-right: 310px;
+        padding-top: 19px;
+        padding-bottom: 20px;
+        padding-left: 49px;
+    }
+    ::placeholder{
+        font-size: 28px;
+    }
+    .deeps-tooltip{
+        font-size: 23px;
+    }
+
+    .mission{
+        padding-top: 164px;
+        padding-bottom: 200px;
+    }
+    .mission-head{
+        padding-bottom: 10px;
+    }
+    .mission-ctn{
+        font-size: 30px;
+    }
+    .food-industry{
+        padding-bottom: 24px;
+        width: auto;
+        font-size: 30px;
+    }
+    
+
+    .features{
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    .why{
+        padding-bottom: 16px;
+    }
+    .feature-head{
+        font-size: 30px;
+    }
+    .feature-ctn{
+        padding-bottom: 24px;
+    }
+    .deeps-empower {
+        padding-bottom: 2px;
+    }
+    .technology {
+        font-size: 30px;
+        width: auto;
+    }
+    .how-ctn{
+        padding-top: 70px;
+    }
+    .how-and-supplychain {
+        padding-bottom: 100px;
+    }
+
+
+    .satellite {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .satellite-artboard{
+        padding-left: 20px;
+    }
+    .join-the-movement {
+        padding-top: 60px;
+        padding-bottom: 35px;
+    }
+    .join-the-movement-ctn {
+        font-size: 30px;
+        padding-bottom: 109px;
+        padding-right: 0px;
+    }
+    .join-and-connect-button {
+        gap: 15px;
+    }
+    .join-the-movement-btn{
+        width: 180px;
+        font-size: 19px;
+        padding-top: 9px;
+        padding-bottom: 10px;
+    }
+
+
+    .where-and-worldmap {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+    .where {
+        padding-bottom: 14px;
+    }
+    .where-ctn {
+        color: #000;
+        font-family: Inter;
+        font-size: 30px;
+        width: 300px;
+    }
+
+
+    .farmsent-container {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 55px;
+    }
+    .about-farmsent {
+        padding-bottom: 4px;
+    }
+    .farmsent-ctn {
+        font-size: 19px;
+        padding-bottom: 19px;
+        padding-right: 100px;
+    }
+    .farmsent-io {
+        font-size: 19px;
+        gap: 8px;
+        padding-top: 14px;
+    }
+
+    .depps-client {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .patners {
+        padding-bottom: 30px;
+    }
+    .depps-clients-logo {
+        width: 185px;
+        height: 50px;
+    }
+    .client-logo {
+        row-gap:75px;
+    }
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 47px;
+    }
+    .depps-footer-logo {
+        padding-top: 50px;
+    }
+    .contact-us-and-email {
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+    .address-and-copyright {
+        gap: 14px;
+    }
+    .contact-us {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 992px){
+    .nav-item{
+        padding: 10px;
+        padding-top: 25px;
+        gap: 25px;
+    }
+    .navbar-toggler{
+        margin-right: 35px;
+    }
+    .navigation{
+        padding-top: 50px !important;
+        padding-left: 60px !important;
+    }
+    #header.active .navigation{
+        padding-top:25px !important;
+    }
+    #header.active .nav-scroll{
+        margin-bottom: 25px; 
+    }
+    .de-pin-for-agriculture{
+        gap: 15px;
+    }
+    h1{
+        font-size: 50px !important;
+    }
+    .agriculture{
+        padding-left: 26px;
+        font-size: 50px;
+    }
+    input{
+        font-size: 24px !important;
+        padding-right: 245px;
+        padding-top: 17px;
+        padding-bottom: 18px;
+        padding-left: 46px;
+        background-position: 17px;
+    }
+    ::placeholder{
+        font-size: 24px;
+    }
+    .deeps-tooltip{
+        width: 25px;
+        height: 25px;
+        font-size: 21px;
+    }
+    .tooltip-inner {
+        font-size: 15px;
+    }
+
+    .mission{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .mission-head {
+        padding-bottom: 7px;
+        font-size: 19px;
+    }
+    .food-industry {
+        padding-bottom: 16px;
+        font-size: 26px;
+    }
+    .mission-ctn {
+        font-size: 26px;
+    }
+    .features {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    .why {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+    .feature-head {
+        font-size: 26px;
+        margin-bottom: 6px;
+    }
+    .feature-ctn {
+        padding-bottom: 14px;
+        font-size: 15px;
+    }
+    .deeps-empower {
+        font-size: 15px;
+        padding-bottom: 0px;
+        margin-bottom: 14px;
+    }
+    .Transparency {
+        font-size: 19px;
+    }
+    .how {
+        font-size: 19px;
+        padding-bottom: 0px;
+    }
+    .technology {
+        font-size: 26px;
+    }
+    .how-ctn {
+        padding-top: 65px;
+    }
+
+
+    .satellite {
+        padding-top: 70px;
+        padding-bottom: 90px;
+    }
+    .join-the-movement {
+        font-size: 19px;
+        padding-top: 55px;
+        padding-bottom: 25px;
+    }
+    .join-the-movement-ctn {
+        font-size: 26px;
+        padding-bottom: 60px;
+        padding-right: 0px;
+    }
+    .join-and-connect-button {
+        gap: 12px;
+    }
+    .join-the-movement-btn {
+        width: 160px;
+        font-size: 18px;
+        padding-top: 8px;
+        padding-bottom: 9px;
+    }
+
+
+    .where-and-worldmap {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .where-ctn {
+        font-size: 26px;
+        width: auto;
+        padding-bottom: 20px;
+    }
+    .where {
+        padding-bottom: 8px;
+        font-size: 19px;
+    }
+
+    .farmsent-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .farmsent-logo {
+        /* padding-right: 112px;
+        padding-top: 0px;
+        padding-left: 54px; */
+        width: 90%;
+    }
+    .about-farmsent {
+        padding-bottom: 3px;
+        padding-top: 20px;
+        padding-left: 25px;
+        font-size: 19px;
+    }
+    .farmsent-ctn {
+        font-size: 18px;
+        padding-bottom: 9px;
+        padding-right: 80px;
+        padding-left: 25px;
+    }
+    .farmsent-io {
+        font-size: 18px;
+        gap: 7px;
+        padding-top: 9px;
+        padding-left: 25px;
+    }
+
+    .depps-client {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .patners {
+        padding-bottom: 20px;
+    }
+    .client-logo {
+        row-gap: 60px;
+    }
+
+    .footer {
+        padding-top: 35px;
+        padding-bottom: 42px;
+    }
+    .depps-footer-logo {
+        padding-top: 40px;
+    }
+    .contact-us-and-email {
+        padding-top: 60px;
+        padding-bottom:25px;
+    }
+    .contact-us {
+        font-size: 18px;
+    }
+    .address-and-copyright {
+        gap: 12px;
+    }
+    .address-and-details {
+        font-size: 14px;
+    }
+    .topup-btn {
+        width: 40px;
+        height: 40px;
+        bottom: 31px;
+        right: 55px;
+    }
+    .bi-arrow-up {
+         font-size: 24px;
+    }
+
+}
+
+@media (max-width: 768px){
+    .navigation{
+        padding-top: 45px !important;
+        padding-left: 60px !important;
+    }
+    #header.active .navigation{
+        padding-top:22px !important;
+    }
+    #header.active .nav-scroll{
+        margin-bottom: 22px; 
+    }
+    .nav-item{
+        padding-top: 20px;
+        gap: 20px;
+    }
+    .de-pin-for-agriculture{
+        gap: 10px;
+    }
+    h1{
+        font-size: 40px !important;
+    }
+    .agriculture {
+        padding-left: 22px;
+        font-size: 40px;
+    }
+    input{
+        font-size: 22px !important;
+        padding-right: 135px;
+        padding-top: 15px;
+        padding-bottom: 16px;
+        padding-left: 44px;
+        background-position: 15px;
+    }
+    ::placeholder{
+        font-size: 22px;
+    }
+    .deeps-tooltip {
+        width: 24px;
+        height: 24px;
+        font-size: 20px;
+    }
+    .help {
+        right: -40px;
+    }
+
+
+    .mission{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .mission-head {
+        padding-bottom: 4px;
+    }
+    .mission-ctn {
+        font-size: 22px;
+    }
+    .food-industry {
+        padding-bottom: 10px;
+    }
+
+    .features {
+        padding-top: 60px;
+        padding-bottom: 55px;
+    }
+    .why {
+        padding-bottom: 5px;
+    }
+    .feature-head {
+        font-size: 22px;
+        margin-bottom: 4px;
+    }
+    .deeps-empower {
+        margin-bottom: 10px;
+    }
+    .feature-ctn {
+        padding-bottom: 4px;
+    }
+
+
+    .how-and-supplychain {
+        padding-bottom: 60px;
+    }
+    .how-ctn {
+        padding-top: 60px;
+    }
+    .how {
+       margin-bottom: 7px;
+    }
+    .technology {
+        font-size: 22px;
+    }
+
+    .satellite {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .join-the-movement {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    .join-the-movement-ctn {
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+    .join-and-connect-button {
+        gap: 10px;
+    }
+    .join-the-movement-btn {
+        width: 125px;
+        font-size: 17px;
+        padding-top: 7px;
+        padding-bottom: 8px;
+    }
+    .where-and-worldmap {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .where {
+        padding-bottom: 2px;
+    }
+    .where-ctn {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+    .farmsent-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+    }
+     .farmsent-ctn{
+        padding-right: 50px;
+    }
+    .farmsent-io {
+        font-size: 17px;
+        gap: 6px;
+        padding-top: 3px;
+    }
+
+
+    .depps-client {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .patners {
+        padding-bottom: 10px;
+        font-size: 19px;
+    }
+    .depps-clients-logo {
+        width: 175px;
+        height: 40px;
+    }
+    .client-logo {
+        row-gap: 40px;
+    }
+    
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 38px;
+    }
+    .depps-footer-logo {
+        padding-top: 30px;
+    }
+    .contact-us-and-email {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 17px;
+    }
+    .address-and-copyright {
+        gap: 10px;
+    }
+
+}
+
+@media (max-width: 576px){
+    .navigation {
+        padding-top: 30px !important;
+        padding-left: 40px !important;
+    }
+    .nav-link {
+        font-size: 16px !important;
+    }
+    #header.active .navigation{
+        padding-top:20px !important;
+    }
+    #header.active .nav-scroll{
+        margin-bottom: 20px; 
+    }
+    .navbar-toggler-icon {
+        width: 27px !important;
+        height: 27px !important;
+    }
+    .depps-header-logo {
+        width: 180px !important;
+        height: 46px !important;
+    }
+    .nav-item{
+        padding-top: 15px;
+        gap: 15px;
+    }
+    .de-pin-for-agriculture{
+        gap: 0px;
+    }
+    .agriculture {
+        padding-left: 12px;
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 30px !important;
+    }
+    input {
+        font-size: 19px !important;
+        padding-right: 60px;
+        padding-top: 10px;
+        padding-bottom: 11px;
+        padding-left: 40px;
+        background-position: 12px;
+    }
+    ::placeholder{
+        font-size: 19px;
+    }
+    .help {
+        right: -35px;
+    }
+    .deeps-tooltip {
+        font-size: 18px;
+    }
+    .tooltip-inner {
+        font-size: 14px;
+    }
+
+
+    .mission {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .mission-head {
+        padding-bottom: 3px;
+        font-size: 18px;
+    }
+    .mission-ctn {
+        font-size: 20px;
+    }
+    .food-industry {
+        padding-bottom: 0px;
+    }
+
+    .features {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .why {
+        padding-bottom: 3px;
+        font-size: 18px;
+    }
+    .feature-head {
+        font-size: 20px;
+    }
+    .feature-ctn {
+        padding-bottom: 0px;
+    }
+    .deeps-empower {
+        margin-bottom: 6px;
+    }
+    .how {
+       font-size: 18px;
+    }
+    .how-ctn {
+        padding-top: 40px;
+    }
+    .how-and-supplychain {
+        padding-bottom: 40px;
+    }
+    .technology {
+        font-size: 20px;
+    }
+
+    .satellite {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .join-the-movement {
+        padding-top: 25px;
+        padding-bottom: 8px;
+        font-size: 18px;
+    }
+    .join-the-movement-ctn {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .join-and-connect-button {
+        gap: 8px;
+    }
+    .join-the-movement-btn {
+        width: 120px;
+        font-size: 16px;
+        padding-top: 5px;
+        padding-bottom: 6px;
+    }
+
+
+    .where-and-worldmap {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .where {
+        padding-bottom: 0px;
+        font-size: 18px;
+    }
+    .where-ctn {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    .farmsent-logo{
+        width: 80%;
+    }
+    .farmsent-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 10px;
+    }
+    .about-farmsent {
+        font-size: 18px;
+    }
+    .farmsent-ctn {
+        font-size: 17px;
+        padding-bottom: 3px;
+        padding-right: 40px;
+    }
+    .depps-client {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .patners {
+        padding-bottom: 0px;
+        font-size: 18px;
+    }
+    .depps-clients-logo {
+        width: 150px;
+        height: 37px;
+    }
+    .client-logo {
+        row-gap: 30px;
+    }
+
+
+    .footer {
+        padding-top: 25px;
+        padding-bottom: 32px;
+    }
+    .depps-footer-icon{
+        width: 185px;
+        height: 48px;
+    }
+    .depps-footer-logo {
+        padding-top: 25px;
+    }
+    .contact-us-and-email {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .address-and-copyright {
+        gap: 8px;
+    }
+    .topup-btn {
+        width: 38px;
+        height: 38px;
+        bottom: 30px;
+        right: 50px;
+    }
+    .bi-arrow-up {
+         font-size: 22px;
+    }
+}
+
+@media (max-width: 480px){
+    .container-fluid{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .nav-link {
+        font-size: 15px !important;
+    }
+    .navigation {
+        padding-top: 20px !important;
+        padding-left: 0px !important;
+    }
+    
+    #header.active .navigation{
+        padding-top:15px !important;
+    }
+    #header.active .nav-scroll{
+        margin-bottom: 15px; 
+    }
+    .depps-header-logo {
+        width: 160px !important;
+        height: 45px !important;
+    }
+    .navbar{
+        font-size: 16px;
+    }
+    .navbar-toggler-icon {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .nav-item {
+        padding-right: 10px;
+        gap: 10px;
+    }
+    h1 {
+        font-size: 22px !important;
+        margin-bottom: 6px;
+    }
+    .agriculture {
+        padding-left: 7px;
+        font-size: 22px;
+    }
+    input {
+        font-size: 18px !important;
+        padding-right: 5px;
+        padding-top: 9px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        background-position: 10px;
+        background-size: 18px;
+    }
+    .help {
+        right: -32px;
+    }
+    .navbar-toggler {
+        margin-left: 60px;
+        margin-right: 0px;
+    }
+    .tooltip-inner {
+        font-size: 13px;
+    }
+
+
+    .mission {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .mission-head {
+        padding-bottom: 0px;
+        font-size: 18px;
+    }
+    .mission-ctn {
+        font-size: 19px;
+    }
+
+
+    .features {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .why {
+        padding-bottom: 0px;
+    }
+    .feature-head {
+        font-size: 19px;
+    }
+    .Transparency {
+        font-size: 18px;
+    }
+
+    .how-ctn {
+        padding-top: 20px;
+    }
+    .technology {
+        font-size: 19px;
+    }
+
+    .join-the-movement {
+        padding-bottom: 3px;
+        font-size: 17px;
+    }
+    .join-the-movement-ctn {
+        font-size: 19px;
+        padding-bottom: 12px;
+    }
+    .join-and-connect-button {
+        gap: 6px;
+    }
+    .join-the-movement-btn {
+        width: 105px;
+        font-size: 15px;
+        padding-top: 4px;
+        padding-bottom: 5px;
+    }
+
+    .where-and-worldmap {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .where {
+        font-size: 17px;
+    }
+    .where-ctn {
+        font-size: 19px;
+    }
+
+    .farmsent-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+    }
+    .about-farmsent {
+        padding-left: 16px;
+        font-size: 17px;
+    }
+    .farmsent-ctn {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .farmsent-io {
+        gap: 5px;
+        padding-top: 0px;
+        padding-left: 16px;
+    }
+    .depps-client {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .depps-clients-logo {
+        width: 125px;
+        height: 35px;
+    }
+    .patners {
+        font-size: 17px;
+    }
+    .client-logo {
+        row-gap: 25px;
+    }
+    .depps-footer-logo {
+        padding-top: 10px;
+    }
+    .contact-us-and-email {
+        padding-top: 20px;
+    }
+    .depps-footer-icon{
+        width: 160px;
+        height: 45px;
+    }
+    .topup-btn {
+        width: 36px;
+        height: 36px;
+        bottom: 30px;
+        right: 30px;
+    }
+    .bi-arrow-up{
+        font-size: 20px;
+    }
+
+}
+
+
+
