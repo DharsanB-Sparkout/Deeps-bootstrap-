@@ -867,7 +867,6 @@
     }
 
     .join-the-movement {
-        padding-bottom: 3px;
         font-size: 17px;
     }
     .join-the-movement-ctn {
@@ -926,9 +925,6 @@
     }
     .client-logo {
         row-gap: 25px;
-    }
-    .depps-footer-logo {
-        padding-top: 10px;
     }
     .contact-us-and-email {
         padding-top: 20px;
