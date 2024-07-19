@@ -10,8 +10,8 @@ body {
 }
 
 #header.active {
-     box-shadow: 0 0 10px #000;   
-     background-color: #FDF8F5 !important; 
+    box-shadow: 0 0 10px #000;   
+    background-color: #FDF8F5 !important; 
 }
 
 #header.active .navigation{
@@ -28,7 +28,6 @@ body {
     top: 0;
     width: 100%;
 }
-
 .img-fluid{
     max-width:  100%;
     height: auto;
@@ -44,8 +43,8 @@ body {
     z-index: 1;
 }
 .depps-header-logo{
-    width: 203px !important;
-    height: 53px !important;
+    width: 203px;
+    height: 53px;
 }
 .nav-item{
     padding-right: 17px;
@@ -53,19 +52,19 @@ body {
 }
 .navbar-toggler:focus {
     outline: 4px solid #E09773 !important;
-    box-shadow: none !important;
+    box-shadow: none ;
 }
 .nav-link{
-    font-size: 18px !important;
-    color:#000 !important;
+    font-size: 18px;
+    color:#000;
     font-family: Inter;
 }
 .nav-link:hover{
-    color: #E09773 !important;
+    color: #E09773;
 }
 
 .banner{
-    background-image: url(/assets/images/header-background.jpg);
+    background-image: url(../images/header-background.jpg);
     width: auto;
     height: 100vh;
     background-repeat: no-repeat;
@@ -82,18 +81,17 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-image: url(/assets/images/background-white-shadow.png);
+    background-image: url(../images/background-white-shadow.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .de-pin-for-agriculture{
     gap:23px;
 }
 h1{
     color:#000;
-    font-size: 64px !important;
+    font-size: 64px;
     margin-bottom: 0px;
     font-family: Inter;
 }
@@ -117,14 +115,14 @@ input{
     font-family: Inter;
 }
 input{
-    font-size: 30px !important;
+    font-size: 30px;
     border-radius: 10px;
     border: 2px solid #1C1C1C;
     padding-top: 21px;
     padding-bottom: 22px;
     padding-left: 50px;
     padding-right: 320px;
-    background-image: url(/assets/images/icons/search-bar-icon.svg);
+    background-image: url(../images/icons/search-bar-icon.svg);
     background-repeat: no-repeat;
     background-position: 20px;
     font-family: Inter;
@@ -198,6 +196,9 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 32px;
     line-height: 24px;
 }
+.small-farmers{
+    line-height: 32px;
+}
 .feature-ctn{
     color: #000;
     font-family: Inter;
@@ -245,9 +246,6 @@ padding-left: 50px;
     background-color: rgba(22, 22, 22, 1);
     padding-top: 100px;
     padding-bottom: 124px;
-}
-.satellite-artboard{
-   padding-left: 92px;
 }
 .join-the-movement{
     color: #E09773;
