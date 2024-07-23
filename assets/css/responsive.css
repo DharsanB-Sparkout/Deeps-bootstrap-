@@ -284,6 +284,9 @@
         padding-top: 70px;
         padding-bottom: 90px;
     }
+    .satellite-image{
+        padding-top: 50px;
+    }
     .join-the-movement {
         font-size: 19px;
         padding-top: 55px;
@@ -486,6 +489,9 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    .satellite-image{
+        padding-top: 45px;
+    }
     .join-the-movement {
         padding-top: 30px;
         padding-bottom: 15px;
@@ -676,6 +682,9 @@
     .satellite {
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+    .satellite-image{
+        padding-top: 40px;
     }
     .join-the-movement {
         padding-top: 25px;
